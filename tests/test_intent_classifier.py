@@ -5,6 +5,10 @@
 意图识别模块测试
 """
 
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+
 import unittest
 from intent.intent_classifier import IntentClassifier
 
